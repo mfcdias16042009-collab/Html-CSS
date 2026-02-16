@@ -1,23 +1,56 @@
 @charset "UTF-8";
-@font-face {
-    font-family:'Super Wonder';
-    src: url('fontes/Super Wonder.ttf') format(truetype);
-}
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+
 
 body{
     margin: 0px;
 }
 
 header{
+    height: 230px;
     background-color: black;
 }
 
 h1 {
-    margin: 0px;
-    font-family: 'Super Wonder';
+    white-space: nowrap;
+    text-align: center;
+    margin: auto;
+    font-family: 'Passion One';
     color: white;
 }
 
 h2{
-   color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-weight: lighter;
+}
+.aheader{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+#pai{
+    position: relative;
+}
+
+#filho1{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 53px;
+}
+
+#filho2{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 60%);
+}
+
+.aheader:hover{
+    text-decoration: underline;
+    color: rgb(0, 255, 64);
 }
