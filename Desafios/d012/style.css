@@ -1,0 +1,23 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'Super Wonder';
+    src: url('fontes/Super Wonder.ttf') format(truetype);
+}
+
+body{
+    margin: 0px;
+}
+
+header{
+    background-color: black;
+}
+
+h1 {
+    margin: 0px;
+    font-family: 'Super Wonder';
+    color: white;
+}
+
+h2{
+   color: white;
+}
