@@ -3,26 +3,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
 body{
+    min-height: 100vh;
     margin: 0px;
 }
 
 header{
-    height: 200px;
+    height: 210px;
     background-color: black;
+    text-align: center;
 }
 
 h1 {
+    font-variant: small-caps;
     white-space: nowrap;
-    text-align: center;
-    margin: auto;
     font-family: 'Passion One';
     color: white;
+    font-size: 10vw;
+    margin: 0px;
+    padding-top: 50px;
 }
 
 h2{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
     font-weight: lighter;
+    margin: 0px;
+    padding-bottom: 50px;
+    font-size: 0.9em;
 }
 .aheader{
     text-decoration: none;
@@ -30,25 +37,6 @@ h2{
     font-weight: bolder;
 }
 
-#pai{
-    position: relative;
-}
-
-#filho1{
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 60px;
-}
-
-#filho2{
-    font-size: 18px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, 65%);
-}
 
 .aheader:hover{
     text-decoration: underline;
@@ -59,29 +47,33 @@ main{
     
 }
 
-p{
-    line-height: 50px;
-}
+
 
 section{
-    margin: 30px;
     font-family:'Sriracha';
-    font-size: 25px;
-    padding: 155px 0px 0px 0px;
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
+    font-size: 4vw;
 }
 
 .primeira{
-        padding: 20px 0px 0px 0px;
+        padding: 20px 0px 0px 30px;
+        background-color: white;
+        font-size: 4vw;
 }
 
-.cordel{
-    padding: 30px 0px 0px 0px;
-}
-
-.borboleta{
+.imagem{
     margin: 0px;
-    height: 500px;
-    background-image: url(imagens/background001.jpg);
+    background-color: rgba(0, 0, 0, 0.527);
+    color: white;
+}
+
+section.imagem > p {
+    background-color: black;
+    display: inline-block;
+    padding: 5px;
 }
 
 .borboletap{
@@ -89,4 +81,22 @@ section{
     background-color: white;
     margin: 30px;
     padding: 5px 5px 5px 5px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+a:hover{
+    text-decoration: underline;
 }
