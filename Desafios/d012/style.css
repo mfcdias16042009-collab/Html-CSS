@@ -7,12 +7,11 @@ body{
 }
 
 header{
-    height: 230px;
+    height: 200px;
     background-color: black;
 }
 
 h1 {
-    min-width: ;
     white-space: nowrap;
     text-align: center;
     margin: auto;
@@ -40,17 +39,54 @@ h2{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    font-size: 53px;
+    font-size: 60px;
 }
 
 #filho2{
+    font-size: 18px;
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, 60%);
+    transform: translate(-50%, 65%);
 }
 
 .aheader:hover{
     text-decoration: underline;
     color: rgb(0, 255, 64);
+}
+
+main{
+    
+}
+
+p{
+    line-height: 50px;
+}
+
+section{
+    margin: 30px;
+    font-family:'Sriracha';
+    font-size: 25px;
+    padding: 155px 0px 0px 0px;
+}
+
+.primeira{
+        padding: 20px 0px 0px 0px;
+}
+
+.cordel{
+    padding: 30px 0px 0px 0px;
+}
+
+.borboleta{
+    margin: 0px;
+    height: 500px;
+    background-image: url(imagens/background001.jpg);
+}
+
+.borboletap{
+    display: inline-block;
+    background-color: white;
+    margin: 30px;
+    padding: 5px 5px 5px 5px;
 }
